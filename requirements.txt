@@ -1,3 +1,2 @@
 streamlit
 wget
-Pillow
