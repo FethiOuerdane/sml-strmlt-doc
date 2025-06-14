@@ -1,2 +1,5 @@
 streamlit
 wget
+Pillow
+torch
+opencv-python
