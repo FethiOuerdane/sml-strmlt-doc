@@ -7,7 +7,7 @@ from Home import home_page
 from Page1 import page1
 from Page2 import page2
 # from pubs.publication_1 import main_page3
-from Page_papers import page_paper
+# from Page_papers import page_paper
 from pubs.docs import main_docs
 # def load_page(page_name):
 #     # Build the file path for the publication script
@@ -84,11 +84,11 @@ def main():
     #     "List of Published Papers": page_paper,
     # }
 
-    # # Handle conditional rendering
-    # if selection != "📖 Publications":
-    #     # Call normal page
-    #     page = pages[selection]
-    #     page()
+    # Handle conditional rendering
+    if selection != "📖 Publications":
+        # Call normal page
+        page = pages[selection]
+        page()
     # else:
     #     # Publications-specific interface
     #     st.sidebar.header("Select a Paper")
