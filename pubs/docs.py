@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image
 import base64
 import base64
 import os
@@ -14,7 +13,7 @@ def pdf_to_base64(path):
 
 # Folder containing your PDFs
 PDF_FOLDER = "concept_reviews"
-DOC_PDF_FOLDER = r"data\product_docs"
+DOC_PDF_FOLDER = "data/product_docs"
 # Utility to convert filename to pretty title
 def prettify_filename(filename):
     name = filename.replace(".pdf", "")  # remove extension
