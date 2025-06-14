@@ -6,7 +6,7 @@ st.set_page_config(page_title="Smart Mobility and Logistics Dashboard", page_ico
 from Home import home_page
 from Page1 import page1
 from Page2 import page2
-from pubs.publication_1 import main_page3
+# from pubs.publication_1 import main_page3
 from Page_papers import page_paper
 from pubs.docs import main_docs
 # def load_page(page_name):
@@ -79,22 +79,22 @@ def main():
     st.sidebar.markdown("---")
 
     # Publications sub-pages
-    publication_pages = {
-        "Technical Aspects of Deploying UAV and Ground Robots for Intelligent Logistics Using YOLO on Embedded Systems": main_page3,
-        "List of Published Papers": page_paper,
-    }
+    # publication_pages = {
+    #     "Technical Aspects of Deploying UAV and Ground Robots for Intelligent Logistics Using YOLO on Embedded Systems": main_page3,
+    #     "List of Published Papers": page_paper,
+    # }
 
-    # Handle conditional rendering
-    if selection != "📖 Publications":
-        # Call normal page
-        page = pages[selection]
-        page()
-    else:
-        # Publications-specific interface
-        st.sidebar.header("Select a Paper")
-        pub_selection = st.sidebar.radio("Choose publication:", list(publication_pages.keys()), key="pub_nav")
-        selected_func = publication_pages[pub_selection]
-        selected_func()
+    # # Handle conditional rendering
+    # if selection != "📖 Publications":
+    #     # Call normal page
+    #     page = pages[selection]
+    #     page()
+    # else:
+    #     # Publications-specific interface
+    #     st.sidebar.header("Select a Paper")
+    #     pub_selection = st.sidebar.radio("Choose publication:", list(publication_pages.keys()), key="pub_nav")
+    #     selected_func = publication_pages[pub_selection]
+    #     selected_func()
 
     st.sidebar.markdown("---")
 
