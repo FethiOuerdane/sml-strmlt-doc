@@ -42,18 +42,120 @@
     
      {
        
-        "title": "Stereo Visual Matching for UAV Navigation: Multi-Channel Disparity Map-Based Trajectory Estimation",
-        "authors": "Wissem Dilmi, Sami El-Ferik, Abdul-Wahid A. Saif",
-        "abstract": "Stereo vision and matching constitute a deeply researched sector within computer vision, particularly in the domains of robot and drone navigation, augmented reality, and automotive applications. Stereo matching performs more effectively in scenarios without radiometric variations compared to those with such variations present. This study delves into stereo matching techniques and proposes novel frameworks aimed at enhancing precise localization and velocity measurement of UAVs within defined boundaries. The primary focus lies on refining the accuracy of the resulting disparagement map, achieved through three key phases: pre-processing, stereo matching, and post-processing. Initially, input images undergo pre-processing using NMHE to mitigate radiometric variations. Subsequently, various features are extracted from both images during the second phase. Finally, the disparagement map undergoes post-processing to eliminate minor artifacts. Experimental findings demonstrate that the proposed modifications have significantly enhanced the performance of state-of-the-art local stereo matching algorithms and bolstered their resilience against radiometric changes.",
-        "link": "https://doi.org/10.1109/SSD64182.2025.10989917",
+        "title": "Cargo-Drone",
+        "authors": "IRC For Smart Mobility and Logistics",
+        "abstract": "High endurance 10-12 h, Speed 150 km/h, Hybrid VTOL, KFUPM Research & Innovation Forum 2024",
+        "link": "https://www.youtube.com/watch?v=dKB3cy1Lk0Q&ab_channel=KFUPM",
         "image": "data/images/cargo_drone_01.png"
     },
      {
        
-        "title": "Stereo Visual Matching for UAV Navigation: Multi-Channel Disparity Map-Based Trajectory Estimation",
-        "authors": "Wissem Dilmi, Sami El-Ferik, Abdul-Wahid A. Saif",
-        "abstract": "Stereo vision and matching constitute a deeply researched sector within computer vision, particularly in the domains of robot and drone navigation, augmented reality, and automotive applications. Stereo matching performs more effectively in scenarios without radiometric variations compared to those with such variations present. This study delves into stereo matching techniques and proposes novel frameworks aimed at enhancing precise localization and velocity measurement of UAVs within defined boundaries. The primary focus lies on refining the accuracy of the resulting disparagement map, achieved through three key phases: pre-processing, stereo matching, and post-processing. Initially, input images undergo pre-processing using NMHE to mitigate radiometric variations. Subsequently, various features are extracted from both images during the second phase. Finally, the disparagement map undergoes post-processing to eliminate minor artifacts. Experimental findings demonstrate that the proposed modifications have significantly enhanced the performance of state-of-the-art local stereo matching algorithms and bolstered their resilience against radiometric changes.",
-        "link": "https://doi.org/10.1109/SSD64182.2025.10989917",
+        "title": "WIDE RANGE HIGH GAIN CONVERTER FOR H2 BASED VEHICLE",
+        "authors": "WDr. Ali. T. Al-Awami and Dr. Md Samiullah",
+        "abstract": "This poster presents a wide-range high-gain DC-DC converter designed for hydrogen-based vehicles. The proposed converter overcomes the limitations of conventional boost converters, which face significant challenges at high voltage levels, such as high duty ratios, excessive component stress, and increased switching losses. By incorporating extended design elements and double duty cycles, this converter achieves high voltage gain with reduced stress on components, continuous input current, and a flexible operating range. The converter's performance is validated through experiments on a 600W prototype, demonstrating its effectiveness for high-voltage applications.",
+        "link": "https://www.youtube.com/watch?v=dKB3cy1Lk0Q&ab_channel=KFUPM",
         "image": "data/images/h2_based_vehicle_02.png"
-    }
+    },
+    {
+    "title": "Dual-use Autonomous Marine System",
+    "authors": "IRC For Smart Mobility and Logistics",
+    "abstract": "Hydrogen powered, Endurance 2-3h, Surface and Gator modes, KFUPM Research & Innovation Forum 2024",
+    "link": "https://www.youtube.com/watch?v=dKB3cy1Lk0Q&ab_channel=KFUPM",
+    "image": "data/images/dual_use_marine_03.png"
+}
+,{
+    "title": "High Value Air Logistics",
+    "authors": "IRC For Smart Mobility and Logistics",
+    "abstract": "Endurance 1h-10h, Short Takeoff and Landing , Speed 100km/h to 450 km/h, KFUPM Research & Innovation Forum 2024",
+    "link": "https://www.youtube.com/watch?v=dKB3cy1Lk0Q&ab_channel=KFUPM",
+    "image": "data/images/air_logisitcs_04.png"
+}
+,{
+    "title": "UAV-Manipulator Systems: Modelling and Control Design",
+    "authors": "Dr. Eltayeb, Eng. Karim Sattar, Dr. Nezar Al Yazidi, Dr. Mahmoud Samy",
+    "abstract": "UAV-Manipulator system, in which a robotic arm with N-DOFs (N=1, 2, 3, … n) is attached to the unmanned aerial vehicle UAV system with 6-DOFs. Recently, UAV systems are getting remarkable attention from researchers due to their daily involvement in many applications including both sectors: military and civilian. The UAV-Manipulator flying system will add more significant features which result in expanding the applications to include package handling, infrastructure inspection, assembling, maintenance, repair, contingency operations, irrigation monitoring, palm pollination, and delivering medical logistics. UAV-Manipulator flying system is classified as multibody dynamics systems, with high nonlinearity, and coupled dynamics. The scope of this research project will cover the theoretical background, simulation tests, and experimental validation for the flying robotic arm system.",
+    "link": "https://www.youtube.com/watch?v=dKB3cy1Lk0Q&ab_channel=KFUPM",
+     "image": "data/images/uav_manipulator_05.png"
+},{
+    "title": "Sustainable Campus Mobility: Evaluating and Enhancing Walkability Through Virtual Reality",
+    "authors": "Dr. M. Aamir Basheer",
+    "abstract": "Campus walkability plays a critical role in promoting physical activity and improving the quality of life. This research explores the use of virtual reality (VR) as a tool to evaluate and improve walking experience. Using a wearable VR headset, participants navigated various urban design scenarios, providing real-time feedback on their walking experience. The study aims to promote sustainability and encourage physical activity by identifying key design interventions that align with user preferences and needs.",
+    "link": "https://www.youtube.com/watch?v=dKB3cy1Lk0Q&ab_channel=KFUPM",
+     "image": "data/images/vr_walkability.png"
+}
+,{
+    "title": "A Joint Planning Model for Distributed Energy",
+    "authors": "Adnan Al-Bukhaytan, Ali T. Al-Awami",
+    "abstract": "This work presents a planning model for a distribution system to meet a growing electrical demand that includes water desalination plants (WDP). The objective is to find the optimal sizes and locations for distributed energy resources (DERs) to supply the expected demands while optimizing the long-term profits for the distribution system operator (DSO). The DERs include photovoltaics (PV), wind turbines (WT), thermal generators (TG), and battery energy storage systems (BESS). The proposed model considers the coordination with the water desalination plant operator (WDPO) in the operational aspect to provide energy flexibility to the DSO.",
+    "link": "https://www.youtube.com/watch?v=dKB3cy1Lk0Q&ab_channel=KFUPM",
+     "image": "data/images/joint_dist_desalination_06.png"
+}
+,{
+    "title": "Balancing Capacity and Capability: A Novel Network Approach for Efficient Warranty Repair Coverage",
+    "authors": "AUTHORS_PLACEHOLDER",
+    "abstract": "This study develops a multi-objective reverse logistics network for managing multi-type warranty returns in closed-loop supply chains using a mixed-integer linear programming model. The model minimizes costs (facility, transport, refurbishment, environmental) and optimizes cycle times and demand fulfilment. A mobile phone case study using the GLPK solver shows improved efficiency, reduced CO2 emissions, and adaptability to demand changes through sensitivity analysis.",
+    "link": "https://ri.kfupm.edu.sa/irc-sml/research/projects/project-details/balancing-capacity-and-capability-a-novel-network-approach-for-efficient-warranty-repair-coverage",
+     "image": "data/images/warranty_repair_coverage_07.png"
+}
+,{
+    "title": "Sensors Technologies for Driver State Detection",
+    "authors": "AUTHORS_PLACEHOLDER",
+    "abstract": "Several studies reveal that 75% of road accidents are related to the drivers behavior. Fatigue and drowsiness are the two main factors influencing the drivers behavior. To alleviate these fatal accidents, the drivers state should be monitored",
+    "link": "LINK_PLACEHOLDER",
+     "image": "data/images/driver_state_detection_08.png"
+}
+,{
+    "title": "Robust ISMC control of PEM Fuel cell voltage for h2 vehicle",
+    "authors": "Dr. Ali. T. Al-Awami",
+    "abstract": "Maintaining precise output voltage is critical for optimal performance in Proton Exchange Membrane (PEM) fuel cell systems, a cornerstone technology in hydrogen-based vehicles. This research introduces a robust adaptive fixed-time integral sliding mode control (FxT ISMC) strategy to address voltage regulation challenges caused by uncertainties in load and input voltage. FxT ISMC eliminates the need for pre-defined disturbance bounds through adaptive gains and therefore simplifies the implementation. The ISMC design guarantees robust and rapid convergence to the desired voltage, regardless of initial conditions, ensuring smooth power delivery for the electric motor in a hydrogen vehicle. The benefits include faster voltage regulation, lower voltage spikes, reduced control oscillations, and exceptional resilience to fluctuations, ultimately contributing to a more efficient and reliable method of propulsion in hydrogen-powered vehicles.",
+    "link": "https://ri.kfupm.edu.sa/irc-sml/research/projects/project-details/robust-ismc-control-of-pem-fuel-cell-voltage-for-h2-vehicle",
+     "image": "data/images/ismc_control_09.png"
+}
+,{
+    "title": "Brain Assess Intelligent Neuro-Diagnostic System Enhancing Brain MRI Processing for Efficient Healthcare Management in Smart Cities",
+    "authors": "Dr. Syed Saad Azhar Ali",
+    "abstract": "ABSTRACT_PLACEHOLDER",
+    "link": "LINK_PLACEHOLDER",
+     "image": "data/images/intelligent_neuro_diag_10.png"
+}
+,{
+    "title": "Brain powered Autonomy in Logistics Operations",
+    "authors": "Dr. Maged S. AL-Quraishi, Dr. Syed S. Azhar, and Dr. Sami El-Ferik",
+    "abstract": "ABSTRACT_PLACEHOLDER",
+    "link": "LINK_PLACEHOLDER",
+     "image": "data/images/brain_powered_autonomy_11.png"
+}
+,{
+    "title": "Robust Dynamic Event-Triggered Formation Control of Multiagent System",
+    "authors": "PI: Dr. A. Saif, CoI: Dr. S. El ferik",
+    "abstract": "This project presents a novel dynamic event-triggered formation control scheme for multiagent systems, with a specific focus on UAVs. Unlike traditional methods, which rely on pre-determined reference trajectories, we introduce an adaptive approach where the leader agent generates a real-time flexible reference trajectory by incorporating an unknown input signal. This allows the leader to dynamically adjust its trajectory in response to environmental changes, obstacles, or mission variations. The proposed robust control framework employs event-triggered mechanisms that optimize communication bandwidth, significantly reducing the need for continuous information exchange between agents.",
+    "link": "https://ri.kfupm.edu.sa/irc-sml/research/projects/project-details/robust-dynamic-event-triggered-formation-control-of-multiagent-system",
+     "image": "data/images/robust_dynamic_event_12.png"
+}
+,{
+    "title": "Real-Time Battery State Estimation and Frequency Control",
+    "authors": "PI: Dr. Nezar Al Yazidi",
+    "abstract": "This project focuses on the development of a real-time battery state estimation and voltage/frequency control system. The proposed approach integrates advanced battery management algorithms with voltage/frequency control mechanisms to enhance the reliability and efficiency of power systems. Through a combination of state-of-the-art estimation techniques and control strategies, the system aims to provide accurate state-of-charge (SOC) predictions and maintain stable frequency levels. Initial results demonstrate the effectiveness of the proposed method in both simulated and real-world scenarios, showing significant improvements in battery utilization and frequency regulation.",
+    "link": "https://ri.kfupm.edu.sa/irc-sml/research/projects/project-details/real-time-battery-state-estimation-and-frequency-control",
+     "image": "data/images/battery_state_estimation_13.png"
+}
+,{
+    "title": "Data-driven models for logistics optimization",
+    "authors": "PI: Dr. Awsan Mohammed, CoI: Dr. A. Al-Hanbali,",
+    "abstract": "The delivery time of goods in the supply chain is a critical enabler for achieving overall supply chain excellence and business success. However, the uncertainty of the delivery times of goods is a significant issue, making it critical for businesses to develop effective logistics and shipping strategies. Accurately forecasting delivery times is needed to maintain smooth logistics operations and, ultimately, reduce overall transportation, shortage, and inventory costs. Consequently, the purpose of this paper is to propose machine learning algorithms for predicting the delivery time and enhancing the responsiveness of the supply chain in the oil and gas industry.  The proposed models will help in building a resilient supply chain capable of adapting to unforeseen events and disruptions. In this paper, the factors influencing the delivery time of the goods in the oil and gas supply chain are identified based on reviewing the literature and expert interviews. Different statistical analysis tests are conducted to ensure the quality of data. In addition, the correlation between the input factors and between input and output is investigated. The machine learning models are developed and validated using real data from an important field; the gas and oil industry.  The results indicated that the factors that influence the delivery time of the goods in oil and gas include annual order hits, priority, supplier region, product complexity, and transportation method. Moreover, the findings revealed the capability of the proposed models to predict the delivery time with an accuracy higher than 85%. This study provides managers with valuable tools for managing and optimizing their supply chain operations by highlighting the critical factors influencing delivery time and providing a reliable predictive model. In addition, the proposed models are expected to assess the organization in reducing supply chain transportation, inventory, and shortage costs. ",
+    "link": "https://ri.kfupm.edu.sa/irc-sml/research/projects/project-details/data-driven-models-for-logistics-optimization",
+     "image": "data/images/data_logisitics_optimize_14.png"
+},{
+    "title": "TITLE_PLACEHOLDER",
+    "authors": "AUTHORS_PLACEHOLDER",
+    "abstract": "ABSTRACT_PLACEHOLDER",
+    "link": "LINK_PLACEHOLDER",
+     "image": "data/images/air_logisitcs_04.png"
+},{
+    "title": "TITLE_PLACEHOLDER",
+    "authors": "AUTHORS_PLACEHOLDER",
+    "abstract": "ABSTRACT_PLACEHOLDER",
+    "link": "LINK_PLACEHOLDER",
+     "image": "data/images/air_logisitcs_04.png"
+}
 ]
