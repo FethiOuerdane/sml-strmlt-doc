@@ -146,16 +146,67 @@
     "link": "https://ri.kfupm.edu.sa/irc-sml/research/projects/project-details/data-driven-models-for-logistics-optimization",
      "image": "data/images/data_logisitics_optimize_14.png"
 },{
-    "title": "TITLE_PLACEHOLDER",
-    "authors": "AUTHORS_PLACEHOLDER",
-    "abstract": "ABSTRACT_PLACEHOLDER",
-    "link": "LINK_PLACEHOLDER",
-     "image": "data/images/air_logisitcs_04.png"
+    "title": "Exploring the interaction between micromobility vehicles and pedestrians on shared pathways",
+    "authors": "PI: Dr. Muhammad Abdullah",
+    "abstract": "This study investigates the interactions between micromobility vehicles and pedestrians sharing pathways, focusing on several factors including pathway, vehicle and user characteristics. Field and VR experiments will be conducted to assess these factors using statistical and machine learning methods. The findings aim to provide insights into how these variables influence pedestrian-micromobility interactions.",
+    "link": "https://ri.kfupm.edu.sa/irc-sml/research/projects/project-details/exploring-the-interaction-between-micromobility-vehicles-and-pedestrians-on-shared-pathways",
+     "image": "data/images/interaction_mobility_15.png"
 },{
-    "title": "TITLE_PLACEHOLDER",
-    "authors": "AUTHORS_PLACEHOLDER",
-    "abstract": "ABSTRACT_PLACEHOLDER",
+    "title": "Optimizing Electric Vehicle Charging Infrastructure for Distribution Systems through Energy Management and User Behavior",
+    "authors": "PI: Dr. Salman Habib",
+    "abstract": "The rapid adoption of electric vehicles (EVs) presents both opportunities and challenges for distribution networks. This study explores strategies for effectively integrating EVs, focusing on grid stability, load management, and renewable energy synergy. Key factors like demand response, smart charging, and infrastructure upgrades are analyzed to ensure optimal power flow and reduced grid strain.",
+    "link": "https://ri.kfupm.edu.sa/irc-sml/research/projects/project-details/optimizing-electric-vehicle-charging-infrastructure-for-distribution-systems-through-energy-management-and-user-behavior",
+     "image": "data/images/opt_electric_vehicle_charging_16.png"
+},{
+    "title": "Optimization of Drone-Locker Delivery System",
+    "authors": "PI: Dr. Ahmed Ghaithan, CoI: Dr. Awsan Mohammed",
+    "abstract": "The growth of e-commerce and the rising of customer expectations mandates efficient design and planning of last-mile logistics. This study presents a novel delivery network design for a locker-drone system that optimizes the integration of trucks and drones to improve delivery efficiency and reduce costs. A mixed-integer linear programming (MILP) model is developed to optimize the delivery network and determine the locations for lockers, number of trucks, number of drones at each locker, and maintenance schedule. The model considers factors like drone range, locker and truck capacities, and maintenance. The study results will significantly impact the logistics and supply chain sector by streamlining the last-mile delivery process, especially in community and intra-facility contexts. It will offer a more cost-effective alternative to traditional delivery methods, thus benefiting both service providers and end-users.",
+    "link": "https://ri.kfupm.edu.sa/irc-sml/research/projects/project-details/optimization-of-drone-locker-delivery-system",
+     "image": "data/images/drone_locker_delivery_17.png"
+},{
+    "title": "Harnessing Graph Theory and Machine Learning for Hydrogen Mobility Solutions",
+    "authors": "PI: Dr. Monther Alfuraidan",
+    "abstract": "In this research, we propose the use of graph theory and machine learning to gain insights into factors critical to hydrogen production and storage, aiming to develop a predictive model that can analyze and optimize the structural properties of materials used for hydrogen synthesis and storage. The graph representations of chemical structures, combined with their properties, will serve as the foundation to extract essential features. These features will then be provided to machine learning algorithms to predict factors contributing to optimal interactions.",
+    "link": "https://ri.kfupm.edu.sa/irc-sml/research/projects/project-details/harnessing-graph-theory-and-machine-learning-for-hydrogen-mobility-solutions",
+     "image": "data/images/harness_graph_theory.png"
+},{
+    "title": "Hydrogen Powered Autonomous Marine Systems for a Sustainable Future",
+    "authors": "PI: Dr Sami El Ferik",
+    "abstract": "Hydrogen fuel cells are a game-changing technology for the development of autonomous marine systems. Offering high energy density, extended operational periods, and zero-emission performance, they present a viable solution for sustainable maritime innovation. This poster investigates the potential of hydrogen-powered autonomous systems and their applications in areas such as wildlife monitoring, tourism, and the oil and gas sector.",
+    "link": "https://ri.kfupm.edu.sa/irc-sml/research/projects/project-details/hydrogen-powered-autonomous-marine-systems-for-a-sustainable-future",
+     "image": "data/images/hydro_marine_18.png"
+}
+,{
+    "title": "Optimal Configuration of a Stand-alone Photovoltaic System by Maximizing Energy Density Considering Hydrogen-Based Storage Solutions",
+    "authors": "PI: Dr. Ahmed Atiah, CoI: Dr. Mohamed Darahouth",
+    "abstract": "Choosing the optimal configuration and capacity planning for a hybrid PV-hydrogen system is a strategic decision-making process that spans approximately 20 years, during which climate and economic factors play a significant role. For this purpose, this research proposes a multi-objective mixed-integer nonlinear programming (MO-MINLP) optimization model that considers economic, technical, and environmental objectives. Additionally, this research utilizes the concept of conditional value at risk (CVaR) in risk management to optimize the energy density over time. The hybrid system includes decision variables such as tilt angle, spacing between PV panels, number of PV panels, number of hydrogen tanks, number of electrolyzers, number of fuel cells, and quantity of hydrogen stored over time. MO optimization helps study the trade-offs among economic, technical, and environmental objectives. We will provide a real-world case to demonstrate the practicability of the optimization model, which involves a PV-hydrogen system to supply power to the residential area at KFUPM.",
+    "link": "https://ri.kfupm.edu.sa/irc-sml/research/projects/project-details/optimal-configuration-of-a-stand-alone-photovoltaic-system-by-maximizing-energy-density-considering-hydrogen-based-storage-solutions",
+     "image": "data/images/pv_hydro_based_storage_19.png"
+}
+,{
+    "title": "Mixed Traffic of Autonomous and Human-Driven Vehicles on Highways",
+    "authors": "PI: Dr. M. F. Mysorewala",
+    "abstract": "A multi-level decision-making and control framework is proposed for mixed traffic of autonomous and human-driven vehicles on smart city highways, contributing to sustainable cities and communities by improving road safety, optimizing efficiency and vehicle performance in urban transportation systems.",
+    "link": "https://ri.kfupm.edu.sa/irc-sml/research/projects/project-details/mixed-traffic-of-autonomous-and-human-driven-vehicles-on-highways",
+     "image": "data/images/mixed_traffic_human_20.png"
+},{
+    "title": "Information-Geometry-Based Bayesian Parameter Estimations for High-Dimensional Dynamical Systems",
+    "authors": "PI: Dr. Muhammad Fuady Emzir",
+    "abstract": "This project applies information geometry, which models probability distributions as Riemannian manifolds, to develop efficient continuous-discrete projection filters for parameter estimation in stochastic dynamical systems governed by stochastic differential equations (SDEs) with discrete-time measurements. By employing Bayesian methods such as Markov chain Monte Carlo (MCMC) sampling and variational inference, the approach aims to be more scalable, accurate, and computationally efficient than existing methods. This work seeks to enhance the understanding and interpretation of dynamical systems across fields like engineering, science, and economics.",
+    "link": "https://ri.kfupm.edu.sa/irc-sml/research/projects/project-details/information-geometry-based-bayesian-parameter-estimations-for-high-dimensional-dynamical-systems",
+     "image": "data/images/information_geometry_21.png"
+}
+,{
+    "title": "Innovative Machine Learning Approaches for Human Gait Mobility Analysis",
+    "authors": "Dr. Syed S. Azhar",
+    "abstract": "The objective of this project is to develop a multimodal machine learning algorithm capable of accurately identifying human gait patterns, with a particular focus on distinguishing between normal and abnormal gait for clinical applications. The algorithm will be designed to generalize effectively across individuals, accounting for the natural variability in gait among different people. To ensure real-world applicability, the model will be validated using real-world gait data.",
     "link": "LINK_PLACEHOLDER",
-     "image": "data/images/air_logisitcs_04.png"
+     "image": "data/images/gait_mobility_analysis.png"
+},{
+    "title": "Lightweight and Computationally Efficient YOLO for Rogue UAV Detection in Complex Backgrounds",
+    "authors": "PI: Dr. Zeeshan Kaleem",
+    "abstract": "The growing popularity of Unmanned Air Vehicles (UAVs) for services like traffic monitoring, emergency communication, and deliveries has raised security and privacy concerns due to unauthorized drone use. To address the need for fast, efficient, and precise UAV detection under various conditions, a Lightweight and Computationally Efficient You Only Look Once (LCE-YOLO) architecture is proposed. LCE-YOLO, an enhanced version of YOLOv5s to focus on small and overlooked features critical for robust UAV detection. It is classified to have three variants, each optimized for specific feature maps, reducing computational costs while maintaining accuracy. LCE-YOLO, particularly LCE-YOLO-M, demonstrates significant performance improvements, achieving a precision of 96.8%, recall of 89.2%, mAP of 95.9%, and IoU of 50.2% in UAV detection, outperforming state-of-the-art in addressing computational complexity issues.",
+    "link": "https://ri.kfupm.edu.sa/irc-sml/research/projects/project-details/lightweight-and-computationally-efficient-yolo-for-rogue-uav-detection-in-complex-backgrounds",
+     "image": "data/images/yolo_rogue_uav_detection_22.png"
 }
 ]
