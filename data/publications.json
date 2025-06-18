@@ -38,5 +38,22 @@
         "abstract": "Stereo vision and matching constitute a deeply researched sector within computer vision, particularly in the domains of robot and drone navigation, augmented reality, and automotive applications. Stereo matching performs more effectively in scenarios without radiometric variations compared to those with such variations present. This study delves into stereo matching techniques and proposes novel frameworks aimed at enhancing precise localization and velocity measurement of UAVs within defined boundaries. The primary focus lies on refining the accuracy of the resulting disparagement map, achieved through three key phases: pre-processing, stereo matching, and post-processing. Initially, input images undergo pre-processing using NMHE to mitigate radiometric variations. Subsequently, various features are extracted from both images during the second phase. Finally, the disparagement map undergoes post-processing to eliminate minor artifacts. Experimental findings demonstrate that the proposed modifications have significantly enhanced the performance of state-of-the-art local stereo matching algorithms and bolstered their resilience against radiometric changes.",
         "link": "https://doi.org/10.1109/SSD64182.2025.10989917",
         "image": "data/images/uav_stereo_matching.png"
+    },
+    
+     {
+       
+        "title": "Stereo Visual Matching for UAV Navigation: Multi-Channel Disparity Map-Based Trajectory Estimation",
+        "authors": "Wissem Dilmi, Sami El-Ferik, Abdul-Wahid A. Saif",
+        "abstract": "Stereo vision and matching constitute a deeply researched sector within computer vision, particularly in the domains of robot and drone navigation, augmented reality, and automotive applications. Stereo matching performs more effectively in scenarios without radiometric variations compared to those with such variations present. This study delves into stereo matching techniques and proposes novel frameworks aimed at enhancing precise localization and velocity measurement of UAVs within defined boundaries. The primary focus lies on refining the accuracy of the resulting disparagement map, achieved through three key phases: pre-processing, stereo matching, and post-processing. Initially, input images undergo pre-processing using NMHE to mitigate radiometric variations. Subsequently, various features are extracted from both images during the second phase. Finally, the disparagement map undergoes post-processing to eliminate minor artifacts. Experimental findings demonstrate that the proposed modifications have significantly enhanced the performance of state-of-the-art local stereo matching algorithms and bolstered their resilience against radiometric changes.",
+        "link": "https://doi.org/10.1109/SSD64182.2025.10989917",
+        "image": "data/images/cargo_drone_01.png"
+    },
+     {
+       
+        "title": "Stereo Visual Matching for UAV Navigation: Multi-Channel Disparity Map-Based Trajectory Estimation",
+        "authors": "Wissem Dilmi, Sami El-Ferik, Abdul-Wahid A. Saif",
+        "abstract": "Stereo vision and matching constitute a deeply researched sector within computer vision, particularly in the domains of robot and drone navigation, augmented reality, and automotive applications. Stereo matching performs more effectively in scenarios without radiometric variations compared to those with such variations present. This study delves into stereo matching techniques and proposes novel frameworks aimed at enhancing precise localization and velocity measurement of UAVs within defined boundaries. The primary focus lies on refining the accuracy of the resulting disparagement map, achieved through three key phases: pre-processing, stereo matching, and post-processing. Initially, input images undergo pre-processing using NMHE to mitigate radiometric variations. Subsequently, various features are extracted from both images during the second phase. Finally, the disparagement map undergoes post-processing to eliminate minor artifacts. Experimental findings demonstrate that the proposed modifications have significantly enhanced the performance of state-of-the-art local stereo matching algorithms and bolstered their resilience against radiometric changes.",
+        "link": "https://doi.org/10.1109/SSD64182.2025.10989917",
+        "image": "data/images/h2_based_vehicle_02.png"
     }
 ]
