@@ -14,12 +14,23 @@ def pdf_to_base64(path):
 # Folder containing your PDFs
 PDF_FOLDER = "concept_reviews"
 DOC_PDF_FOLDER = "data/product_docs"
+EXP_PDF_FOLDER = "experiment_instructions"
 # Utility to convert filename to pretty title
 def prettify_filename(filename):
     name = filename.replace(".pdf", "")  # remove extension
-    parts = name.split("_")[2:]  # remove numeric prefix like 00001_
+    parts = name.split("_")
+
+    # Remove numeric prefix if it exists
+    if parts[0].isdigit():
+        parts = parts[1:]
+
     title = " ".join(word.capitalize() for word in parts)
     return title
+# def prettify_filename(filename):
+#     name = filename.replace(".pdf", "")  # remove extension
+#     parts = name.split("_")[2:]  # remove numeric prefix like 00001_
+#     title = " ".join(word.capitalize() for word in parts)
+#     return title
 def main_docs():
     # Set wide layout and page config
     # st.set_page_config(layout="wide", page_title="Project Documentation", page_icon="📘")
@@ -54,9 +65,9 @@ def main_docs():
 
     # Inject CSS to style tabs
  
-    tabd, tabdd = st.tabs(["📘 Lab Products Docs", "📖 General Concept Reviews (PDF)"])
+    tab_products, tabd_concepts, tab_experiments = st.tabs(["📘 Lab Products Docs", "📖 General Concept Reviews (PDF)", " 🛠️ Lab Runs & Demos Instructions"])
 
-    with tabd:
+    with tab_products:
         st.subheader("🛠️ Select a Quanser Product")
         
         products = {
@@ -184,7 +195,7 @@ def main_docs():
             st.markdown("---")
             st.markdown("© 2025 Smart Mobility Research Group | Contact: `selferik@kfupm.edu.sa`", unsafe_allow_html=True)
 
-    with tabdd:
+    with tabd_concepts:
         st.markdown("#### Concept Reviews: Select from List")
         pdf_files = [f for f in os.listdir(PDF_FOLDER) if f.endswith(".pdf")]
 
@@ -211,6 +222,72 @@ def main_docs():
         )
         # for line in product_data["code"]:
         #     st.code(line, language="matlab")
+    with tab_experiments:
+        st.markdown("#### 🧪 Experiments Instructions: Select from the List")
+
+        # --- Static List of Mixed Content (PDFs + YouTube Videos) ---
+        mixed_content = [
+            {"label": "📄 LEADER - FOLLOWER UAV-QBOT", "type": "pdf", "file": "UAV_QBOT_Instruction.pdf"},
+            {"label": "📄 LEADER - FOLLOWER UAV- 2QBOTs VSHAPE", "type": "pdf", "file": "V_SHAPE_UAV_QBOT_Instruction.pdf"},
+            {"label": "🎥 Video: QBot Navigation Demo", "type": "youtube", "video_id": "dQw4w9WgXcQ"},  # Example
+        ]
+
+        # --- Add all other PDFs dynamically ---
+        dynamic_pdfs = [
+            f for f in os.listdir(EXP_PDF_FOLDER)
+            if f.endswith(".pdf") and f not in [item["file"] for item in mixed_content if item["type"] == "pdf"]
+        ]
+        for pdf in dynamic_pdfs:
+            mixed_content.append({
+                "label": f"📄 PDF: {prettify_filename(pdf)}",
+                "type": "pdf",
+                "file": pdf
+            })
+
+        # --- Dropdown ---
+        options = [item["label"] for item in mixed_content]
+        selected_label = st.selectbox("📚 Select a Tutorial Resource:", sorted(options))
+
+        # --- Match the Selected Item ---
+        selected_item = next(item for item in mixed_content if item["label"] == selected_label)
+
+        # --- Display Logic ---
+        if selected_item["type"] == "pdf":
+            pdf_path = os.path.join(EXP_PDF_FOLDER, selected_item["file"])
+            pdf_base64 = pdf_to_base64(pdf_path)
+            st.markdown(f"### {selected_item['label']}")
+            st.markdown(
+                f'<iframe src="data:application/pdf;base64,{pdf_base64}" width="100%" height="1100" type="application/pdf"></iframe>',
+                unsafe_allow_html=True
+            )
+
+        elif selected_item["type"] == "youtube":
+            st.markdown(f"### {selected_item['label']}")
+            st.video(f"https://www.youtube.com/watch?v={selected_item['video_id']}")
+        # st.markdown("#### Experiments Instructions: Select from List")
+        # pdf_files2 = [f for f in os.listdir(EXP_PDF_FOLDER) if f.endswith(".pdf")]
+
+        # # Create a mapping from pretty name to filename
+        # pretty_to_file2 = {
+        #     prettify_filename(f): f for f in pdf_files2
+        # }
+
+        # # Dropdown for user to pick a PDF
+        # selected_title2 = st.selectbox("📚 Select a Concept Review PDF:", sorted(pretty_to_file2.keys()))
+
+        # # Get the corresponding file path
+        # selected_file = pretty_to_file2[selected_title2]
+        # pdf_path = os.path.join(EXP_PDF_FOLDER, selected_file)
+
+        # # Display the selected PDF
+        # st.markdown(f"### 📄 {selected_title}")
+
+        # pdf_base64 = pdf_to_base64(pdf_path)
+
+        # st.markdown(
+        #     f'<iframe src="data:application/pdf;base64,{pdf_base64}" width="100%" height="1100" type="application/pdf"></iframe>',
+        #     unsafe_allow_html=True
+        # )
     
     
     # ---------------- Architecture ---------------- #
