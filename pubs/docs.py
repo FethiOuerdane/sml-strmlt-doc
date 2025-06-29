@@ -40,7 +40,7 @@ def main_docs():
     # logo_base64 = get_base64_image(logo_path)
     st.image("data/images/lab.jpg")
     # st.image("data/images/guide_tabs.png")
-    with st.expander("🧠 Information Tip", expanded=True):
+    with st.expander("🧠 Information Tip", expanded=False):
         st.image("data/images/guide_tabs.png")
     # st.subheader("🎯 Objectives")
     # st.markdown(""" 
@@ -229,7 +229,14 @@ def main_docs():
         mixed_content = [
             {"label": "📄 LEADER - FOLLOWER UAV-QBOT", "type": "pdf", "file": "UAV_QBOT_Instruction.pdf"},
             {"label": "📄 LEADER - FOLLOWER UAV- 2QBOTs VSHAPE", "type": "pdf", "file": "V_SHAPE_UAV_QBOT_Instruction.pdf"},
-            {"label": "🎥 Video: QBot Navigation Demo", "type": "youtube", "video_id": "dQw4w9WgXcQ"},  # Example
+            {"label": "🎥 Video: QBot Platform V1 Training (Simulink)", "type": "youtube", "video_id": "w5RFFDtPaKM"},  # Example
+            {"label": "🎥 Video: QDrone 2 and QBot 3 Training (Simulink)", "type": "youtube", "video_id": "lxrts2ohqok"},  # Example
+            {"label": "🎥 Video: Quanser Autonomous Vehicle Research Studio Training 2", "type": "youtube", "video_id": "Qd7mYFoa3zA"},  # Example
+            {"label": "🎥 Video: Quanser Autonomous Vehicle Research Studio Training", "type": "youtube", "video_id": "05rvGkUC9EE"},  # Example
+            {"label": "🎥 Video: Quanser Self Driving Car Studio Training Session 1", "type": "youtube", "video_id": "IklBP3AKW8U"},  # Example
+            {"label": "🎥 Video: Quanser Self Driving Car Studio Training Session 2", "type": "youtube", "video_id": "asXAtuJRqRY"},  # Example
+            {"label": "🎥 Video: Quanser Self Driving Car Studio Training Session 3", "type": "youtube", "video_id": "JbVmsk3cj-w"},  # Example
+
         ]
 
         # --- Add all other PDFs dynamically ---
